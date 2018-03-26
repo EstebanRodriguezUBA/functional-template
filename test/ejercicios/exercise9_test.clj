@@ -1,6 +1,6 @@
-(ns exercise9-test
+(ns ejercicios.exercise9-test
   (:require [clojure.test :refer :all]
-            [exercise9 :refer :all]))
+            [ejercicios.exercise9 :refer :all]))
 
 (deftest things-for-string
   (testing "Returns the string legend."

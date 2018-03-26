@@ -1,6 +1,6 @@
-(ns exercise1-test
+(ns ejercicios.exercise1-test
   (:require [clojure.test :refer :all]
-            [exercise1 :refer :all]))
+            [ejercicios.exercise1 :refer :all]))
 
 (deftest ten-minus-by-two-test-positive
   (testing "Tests with a value that makes the result positive."

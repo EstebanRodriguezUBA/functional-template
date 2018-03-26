@@ -1,6 +1,6 @@
-(ns exercise10-test
+(ns ejercicios.exercise10-test
   (:require [clojure.test :refer :all]
-            [exercise10 :refer :all]))
+            [ejercicios.exercise10 :refer :all]))
 
 (deftest fvariance-for-list-of-numbers
   (testing "Returns the variance of a list of numbers."

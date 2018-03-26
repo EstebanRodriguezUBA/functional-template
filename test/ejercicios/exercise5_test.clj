@@ -1,6 +1,6 @@
-(ns exercise5-test
+(ns ejercicios.exercise5-test
   (:require [clojure.test :refer :all]
-            [exercise5 :refer :all]))
+            [ejercicios.exercise5 :refer :all]))
 
 (deftest flast-of-array-of-numbers
   (testing "Returns the last element of an array of numbers."
